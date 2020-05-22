@@ -9,7 +9,7 @@ const forecast = (lat, long, cb) => {
     } else if (body.error) {
       cb('Unable to find location. Try another search', undefined)
     } else {
-      cb(undefined, body.current.weather_descriptions[0] + `. It is currently ${body.current.temperature} degrees out. However, it feels like ${body.current.feelslike} degrees out.`)
+      cb(undefined, `Today it's ${body.current.weather_descriptions[0].toLowerCase()} and currently ${body.current.temperature} degrees out. The estimated humidity is ${body.current.humidity} degrees.`)
     }
   })
 }
