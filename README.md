@@ -6,5 +6,5 @@ The weater-app gives you live weather information based on location submited. It
 
 App is live at the link below. 
 
-https://emir-weather-application.herokuapp.com/about
+https://emir-weather-application.herokuapp.com/
 
